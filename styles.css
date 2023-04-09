@@ -51,6 +51,11 @@
   justify-content: center;
 }
 
+.container-left__score:hover{
+  box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 6px 5px 29px 13px rgba(255,255,255,0.54);
+  transition : box-shadow ease-in-out 1s;
+}
+
 .container-left__score span:nth-child(1){
   font-size: 3.5rem;
   font-weight: 800;
@@ -123,12 +128,20 @@
   background-color: rgb(255, 87, 87, 0.1);
 }
 
+.summary-item:nth-child(1):hover {
+  background-color: rgb(255, 87, 87, 0.2);
+}
+
 .summary-item:nth-child(1) .summary-item__title {
   color: rgb(255, 87, 87, 0.8);
 }
 
 .summary-item:nth-child(2) {
   background-color: rgb(255, 176, 31, 0.1);
+}
+
+.summary-item:nth-child(2):hover {
+  background-color: rgb(255, 176, 31, 0.2);
 }
 
 .summary-item:nth-child(2) .summary-item__title{
@@ -139,12 +152,20 @@
   background-color: rgb(45, 189, 145, 0.1);
 }
 
+.summary-item:nth-child(3):hover {
+  background-color: rgb(45, 189, 145, 0.2);
+}
+
 .summary-item:nth-child(3) .summary-item__title {
   color: rgb(45, 189, 145, 0.8);
 }
 
 .summary-item:nth-child(4) {
   background-color: rgb(45, 52, 142, 0.1);
+}
+
+.summary-item:nth-child(4):hover {
+  background-color: rgb(45, 52, 142, 0.2);
 }
 
 .summary-item:nth-child(4) .summary-item__title {
@@ -174,6 +195,10 @@
   font-weight: bold;
   color: white;
   background-color: rgb(48, 59, 89);
+}
+
+.summary-button:hover {
+  background-color: rgb(72, 88, 131);
 }
 
 @media (min-width: 769px) {
